@@ -1,0 +1,29 @@
+{
+    "extends": ["airbnb-base", "plugin:inferno/recommended"],
+
+    "plugins": [
+        "import",
+        "inferno"
+    ],
+
+    "env": {
+        "browser": true,
+        "node": true
+    },
+
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    
+    "rules": {
+        "no-console": 0,
+        "linebreak-style": 0,
+        "inferno/prop-types": 0
+    },
+    
+    "settings": {
+        "import/resolver": "webpack"
+    }
+}
